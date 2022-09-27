@@ -1,0 +1,70 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: rgb(238, 234, 234);
+}
+
+header {
+    background-color: #161b25;
+
+     padding: 0rem 1rem;
+}
+
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+/* #f_ml {
+    max-width: 200px;
+    max-height: 200 px;
+} */
+
+section article {
+    transition: box-shadow 0.4s ease;
+    background-color: rgb(255, 255, 255);
+    margin: 1rem 0;
+    border-radius: 0.5 rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+} 
+
+section article h2,section article p, section article strong {
+    margin: 1rem
+}
+
+footer {
+    background-color: #838383;
+    padding: 1rem;
+    color:  white;
+    bottom: 0;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+    background-color: darkcyan;
+    padding: 0.5rem;
+    border: thin solid whitesmoke;
+    border-radius: 0 1rem;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
